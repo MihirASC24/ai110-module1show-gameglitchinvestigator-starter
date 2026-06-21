@@ -13,10 +13,14 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
-|-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+
+|1|Hint returns "Go Higher!"|Hint returned "Go Lower!"|Incorrect Hint|
+
+|Entered 30 , Secret: 40|Hint returns "Go Higher!"|Hint returned "Go Lower!"|Incorrect Hint|
+
+|Clicked "New Game" after winning|New Game prompt disappears after clicking|New Game prompt stayed|New Game prompt not disappearing|
+
+|Clicked "New Game" after Game Over|Game Over message disappears after clicking|Game Over message stayed|Game Over prompt not disappearing|
 
 ---
 
